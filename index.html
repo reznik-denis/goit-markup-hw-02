@@ -4,45 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio v.1</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="./index.html">Web Studio</a>
-        <ul>
+        <a class="link logo" href="./index.html"><span class="logo-accent">Web</span> Studio</a>
+        <ul class="list site-nav">
           <li>
-            <a href="./index.html">Студия</a>
+            <a class="link current" href="./index.html">Студия</a>
           </li>
           <li>
-            <a href="./portfolio.html">Портфолио</a>
+            <a class="link" href="./portfolio.html">Портфолио</a>
           </li>
           <li>
-            <a href="#">Контакты</a>
+            <a class="link" href="#">Контакты</a>
           </li>
         </ul>
-        <ul>
+        <ul class="list site-nav">
           <li>
             <img src="./images/mail.svg" alt="mail" />
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a  class="link-contact"href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
             <img src="./images/telefone.svg" alt="Telefone" />
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link-contact" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
       <!-- Герой -->
-      <section>
-        <h1>эффективные решения для вашего бизнеса</h1>
-        <a href="#">Заказать услугу</a>
+      <section class="hero">
+        <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+        <a class="link buttom" href="#">Заказать услугу</a>
       </section>
       <!-- Преимущества -->
       <section>
         <h2>Преимущества</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href="#"> <img src="./images/antenna1.svg" alt="Антенна" /></a>
             <h3>Внимание к деталям</h3>
@@ -80,7 +83,7 @@
       <!-- Чем мы занимаемся -->
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href="#"><img  src="./images/box1.jpg" alt="Десктопные приложения" width="380" height="294" /></a>
             <h3>Десктопные приложения</h3>
@@ -98,12 +101,12 @@
       <!-- Наша команда -->
       <section>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/JohnSmith.jpg" alt="John Smith" width="278" height="260"/>
             <h3 lang="en">John Smith</h3>
             <p lang="en">Product Designer</p>
-            <ul>
+            <ul class="list">
               <li>
                 <a href="https://www.instagram.com/"><img src="./images/instagram.svg" alt="Инстаграм" /></a>
               </li>
@@ -122,7 +125,7 @@
             <img src="./images/MartaStewart.jpg" alt="Marta Stewart" width="278" height="260" />
             <h3 lang="en">Marta Stewart</h3>
             <p lang="en">Frontend Developer</p>
-            <ul>
+            <ul class="list">
               <li>
                 <a href="https://www.instagram.com/"><img src="./images/instagram.svg" alt="Инстаграм" /></a>
               </li>
@@ -141,7 +144,7 @@
             <img src="./images/RobertJakis.jpg" alt="Robert Jakis" width="278" height="260" />
             <h3 lang="en">Robert Jakis</h3>
             <p lang="en">Marketing</p>
-            <ul>
+            <ul class="list">
               <li>
                 <a href="https://www.instagram.com/"><img src="./images/instagram.svg" alt="Инстаграм" /></a>
               </li>
@@ -160,7 +163,7 @@
             <img src="./images/MartinDoe.jpg" alt="Martin Doe" width="278" height="260" />
             <h3 lang="en">Martin Doe</h3>
             <p lang="en">UI Designer</p>
-            <ul>
+            <ul class="list">
               <li>
                 <a href="https://www.instagram.com/"><img src="./images/instagram.svg" alt="Инстаграм" /></a>
               </li>
@@ -180,7 +183,7 @@
       <!-- Постоянные клиенты -->
       <section>
         <h2>Постоянные клиенты</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href="#"><img src="./images/YACO.svg" alt="YA & CO" /></a>
           </li>
@@ -208,19 +211,19 @@
         <a href="./index.html">Web Studio</a>
         <address>г. Киев, пр-т Леси Украинки, 26</address>
         <address>
-          <ul>
+          <ul class="list">
             <li>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
       </div>
       <div>
         <p><b>присоединяйтесь</b></p>
-        <ul>
+        <ul class="list">
           <li>
             <a href="https://www.instagram.com/"><img src="./images/instagram.svg" alt="Инстаграм"/></a>
           </li>

@@ -1,0 +1,9 @@
+.hero .hero-title {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.hero .link.buttom {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
