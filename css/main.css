@@ -7,3 +7,24 @@
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+
+/* .section-title {
+    
+} */
+
+/* .section-subtitle {
+
+} */
+
+.section-text {
+    color: var(--text-color);
+}
+
+.working {
+    color: var(--primary-white-color);
+    background-color: var(--bacground-three-color);
+}
+
+.comand-text, .section-text {
+    color: var(--text-color);
+}

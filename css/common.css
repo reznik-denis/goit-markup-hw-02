@@ -8,6 +8,7 @@
     --bacground-three-color: rgba(47, 48, 58, 0.8);
     --bacground-color: #E5E5E5;
     --bacground-second-color: #F5F4FA;
+    --footer-bacground-color: #2F303A;
 }
 
 body {
@@ -63,3 +64,25 @@ body {
 .site-nav .link-contact:hover, .site-nav .link-contact:focus {
     color: var(--accent-color);
 }
+
+/* Футер сайта */
+.futer-logo {
+    color: var(--primary-white-color);
+}
+
+.futer-logo-accent {
+    color: var(--accent-color);
+}
+
+.futer-logo-accent:hover, .futer-logo-accent:focus {
+    color: var(--primary-white-color);
+}
+
+.futer-logo:hover, .futer-logo:focus {
+    color: var(--accent-color);
+}
+
+.futer-logo, .futer-logo-accent {
+    background-color: var(--footer-bacground-color);
+}
+
