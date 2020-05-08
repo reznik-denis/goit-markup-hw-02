@@ -86,3 +86,28 @@ body {
     background-color: var(--footer-bacground-color);
 }
 
+.adress {
+    color: var(--primary-white-color);
+    background-color: var(--footer-bacground-color);
+    font-style: normal;
+}
+
+.futer-link .futer-link-contact {
+    color: var(--footer-three-text-color);
+    background-color: var(--footer-bacground-color);
+    font-style: normal;
+}
+
+.futer-link .futer-link-contact:hover, .futer-link .futer-link-contact:focus {
+    color: var(--accent-color);
+}
+
+.social-links {
+    color: var(--primary-white-color);
+    background-color: var(--footer-bacground-color);
+}
+
+.copirait {
+    color: var(--footer-second-text-color);
+    background-color: var(--footer-bacground-color);
+}
