@@ -12,9 +12,9 @@
 }
 
 body {
-    background-color: var:(--bacground-color);
-    color: var:(--primary-text-color:);
-    font-family: Roboto;
+    background-color: var(--bacground-color);
+    color: var(--primary-text-color:);
+    font-family: Roboto, sans-serif;
 }
 
 h2, h3 {
@@ -32,7 +32,7 @@ h2, h3 {
 /* Шапка сайта */
 .logo {
     color: var(--primary-text-color);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;

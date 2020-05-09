@@ -1,0 +1,27 @@
+.section-buttom {
+    color: var(--primary-text-color);
+    background-color: var(--bacground-second-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-buttom:hover, .section-buttom:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.sectiion-title {
+    color: var(--primary-text-color);
+}
+
+.section-subtitle {
+    color: var(--text-color);
+}
+
+.section-description {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
