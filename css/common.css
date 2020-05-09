@@ -32,6 +32,17 @@ h2, h3 {
 /* Шапка сайта */
 .logo {
     color: var(--primary-text-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .logo:hover, .logo:focus {
@@ -73,6 +84,10 @@ h2, h3 {
 /* Футер сайта */
 .futer-logo {
     color: var(--primary-white-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
 }
 
 .futer-logo-accent {
@@ -95,12 +110,18 @@ h2, h3 {
     color: var(--primary-white-color);
     background-color: var(--footer-bacground-color);
     font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 .futer-link .futer-link-contact {
     color: var(--footer-three-text-color);
     background-color: var(--footer-bacground-color);
     font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 .futer-link .futer-link-contact:hover, .futer-link .futer-link-contact:focus {
@@ -110,9 +131,18 @@ h2, h3 {
 .social-links {
     color: var(--primary-white-color);
     background-color: var(--footer-bacground-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .copirait {
     color: var(--footer-second-text-color);
     background-color: var(--footer-bacground-color);
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
